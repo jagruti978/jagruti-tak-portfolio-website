@@ -41,13 +41,12 @@ const sendEmail = (e) => {
   setSuccess(false);
   setError(false);
 
-  emailjs
-    .sendForm(
-      "service_4ihxllb",
-      "template_3ftjv9r",
-      form.current,
-      "CBACj07Wfy5WUe9W0"
-    )
+  emailjs.sendForm(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  form.current,
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+)
     .then((result) => {
   console.log("SUCCESS:", result.text);
 
