@@ -122,7 +122,7 @@ function Hero() {
             {/* RESUME BUTTON */}
 
             <a
-           href="https://drive.google.com/file/d/1sFsiBmEqshmGK8GJkOBGuB1WdGLYgv8Y/view?usp=sharing"
+           href="https://drive.google.com/file/d/1usZbZ7tImuyT3FSN8CbOL6UOKwOkfJP3/view?usp=sharing"
            target="_blank"
            rel="noopener noreferrer"
             >
