@@ -121,28 +121,34 @@ function Hero() {
 
             {/* RESUME BUTTON */}
 
-            <button
-              className="
-                min-w-[220px]
-                h-[62px]
-                px-8
-                rounded-2xl
-                border border-[#FF4ECD]
-                bg-white/5
-                backdrop-blur-lg
-                text-[#FF4ECD]
-                text-base
-                font-semibold
-                font-[Poppins]
-                tracking-wide
-                hover:bg-[#FF4ECD]
-                hover:text-white
-                hover:scale-105
-                transition-all duration-300
-              "
+            <a
+           href="https://drive.google.com/file/d/1sFsiBmEqshmGK8GJkOBGuB1WdGLYgv8Y/view?usp=sharing"
+           target="_blank"
+           rel="noopener noreferrer"
             >
-              View Resume
-            </button>
+          <button
+          className="
+          min-w-[220px]
+          h-[62px]
+          px-8
+          rounded-2xl
+          border border-[#FF4ECD]
+          bg-white/5
+          backdrop-blur-lg
+          text-[#FF4ECD]
+          text-base
+          font-semibold
+          font-[Poppins]
+          tracking-wide
+          hover:bg-[#FF4ECD]
+          hover:text-white
+          hover:scale-105
+          transition-all duration-300
+    "
+  >
+    View Resume
+  </button>
+</a>
           </div>
         </motion.div>
 
