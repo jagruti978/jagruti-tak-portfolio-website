@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Sora:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Sreda';
+  src: url('./assets/fonts/sreda.regular.ttf') format('truetype');
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+}
+
+html{
+  overflow-x:hidden;
+}
+
+body{
+  background:#0B1026;
+  color:#F9FAFB;
+  font-family:'Sora', sans-serif;
+  overflow-x:hidden;
+}
